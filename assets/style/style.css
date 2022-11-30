@@ -1,0 +1,356 @@
+.cabecalho {
+    height: 70px;
+    border-bottom: 1px solid hsla(0,0%,79.6%,.6);
+    background: #FFFFFF;
+}
+
+.cabecalho__container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.cabecalho__logo {
+    width: 100px;
+    padding-left: 15px;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__cart-icon {
+    height: 70px;
+    border-left: 1px solid hsla(0,0%,79.6%,.6);
+    margin-left: 10px;
+}
+
+.menu__cart-image {
+    height: 25px;
+    padding: 20px 0 0 10px;
+}
+
+
+.conteudo {
+    padding: 10% 0 0 0;
+}
+
+.conteudo__legenda {
+    padding-left: 8%;
+}
+
+.conteudo__titulo-principal {
+    font-size: 33px;
+}
+
+.conteudo__titulo-secundario {
+    font-size: 19px;
+    color: #666666;
+    margin: 8px 0;
+}
+
+.conteudo__nav-produtos {
+    padding-left: 8%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-produtos__celula-produto {
+    padding: 10px 20px 5px 20px;
+    text-align: center;
+    border-bottom: 1px solid #888888;
+}
+
+.nav-produtos__celula-produto:hover {
+    border-bottom: 2px solid #5b0086;
+
+}
+
+.celula-produto__produto {
+    font-size: 15px;
+    padding: 15px 0;
+    color: #888888;
+}
+
+.celula-produto__produto:hover {
+    color: #5b0086;
+}
+
+.conteudo__product-cards {
+    background-color: #f5f5f5;
+    padding: 0 0 60px 8%;
+}
+
+.product-cards__caixa {
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-cards__cards {
+    height: 250px;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 5px solid #5b0086;
+    width: 220px;
+}
+
+.cards__titulo-principal {
+    font-size: 22px;
+}
+
+.cards__titulo-secundario {
+    font-size: 13px;
+    color: #888888;
+}
+
+.apps-list__items {
+    display: inline;
+}
+
+.items__app-image {
+    width: 12%;
+    margin-right: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cards__buttons-comprar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttons-comprar__adicionar {
+    margin-right: 15px;
+    width: 100px;
+    height: 45px;
+    background-color: #5b0086;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons-comprar__detalhes {
+    width: 100px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #5b0086;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-cards__out-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.out-buttons__not-internet {
+    color: #5b0086;
+    border: 1px solid #5b0086;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 25%;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.out-buttons__sem-apps {
+    text-decoration: none;
+    color: #5b0086;
+    margin-left: 20px;
+}
+
+.conteudo__prox {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.prox__prox-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 45vw 20px 105px;
+    border: none;
+    background-color: white;
+    text-align: start;
+    font-size: 19px;
+}
+
+.prox__prox-button::after{
+    content: "ᐳ";
+}
+
+.conteudo__informacoes {
+    padding: 30px 0 30px 8%;
+    background-color: #f5f5f5;
+}
+
+.informacoes__titulo-principal {
+    font-size: 22px;
+}
+
+.informacoes__titulo-secundario {
+    font-size: 19px;
+    margin: 10px 0 30px 0;
+    color: #888888;
+}
+
+.informacoes__cards-informacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards-informacao__card {
+    margin-right: 55px;
+}
+
+.card__informacao-image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.card__titulo-principal {
+    font-size: 19px;
+}
+
+.card__titulo-secundario {
+    font-size: 19px;
+    color: #696969;
+    line-height: 1.3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: 1px solid hsla(0,0%,79.6%,.6);
+}
+
+.footer__parceiro-image {
+    width: 180px;
+    height: 120px;
+}
+
+.meucarrinho {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .conteudo__nav-produtos {
+        overflow-x: scroll;
+        padding: 0;
+    }
+
+    .nav-produtos__celula-produto {
+        padding: 0 25px;
+    }
+
+    .nav-produtos__celula-produto p {
+        font-size: 16px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .product-cards__caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 0;
+    }
+
+    .product-cards__cards {
+        margin: 10px 0;
+    }
+
+    .out-buttons__not-internet {
+        width: 90%;
+        margin: 0 0;
+    }
+
+    .out-buttons__sem-apps {
+        margin: 10px 0;
+    }
+
+    .prox__prox-button {
+        padding: 0;
+        display: block;
+    }
+
+    .prox__prox-button p {
+        padding: 30px 0 30px 8%;
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .informacoes__titulo-principal {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .informacoes__titulo-secundario {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .informacoes__cards-informacao {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .cards-informacao__card {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .card__informacao-image {
+        margin-right: 10px;
+    }
+
+    .card__titulo-secundario {
+        margin-bottom: 5px;
+    }
+
+    .card__titulo-secundario{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .meucarrinho{
+        display: flex;
+        justify-content: space-between;
+        background-color: #5b0086;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .meucarrinho__legend {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 0 0 40px 0;
+    }
+}
